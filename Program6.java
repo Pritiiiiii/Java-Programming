@@ -2,16 +2,23 @@
 // method recursion
 //BUT IT LEADS STACK OVERFLOW ERROR
 public class Program6 {
-    static void print(int n){
-       if(n>=1){// base condition in recursion
-       System.out.println(n);
-        n--;
-        print(n);
+    // static void print(int n){
+    //    if(n>=1){// base condition in recursion
+    //    System.out.println(n);
+    //     n--;
+    //     print(n);
+    //    }
+    //     }
+    static void program(int n){
+       if(n<=500){
+        System.out.println(n);
+        n++;
+program(n);
        }
-        }
-    
+    }
     public static void main(String[] args) {
-        print(500);
+  program(1);
+
     }
     
 }

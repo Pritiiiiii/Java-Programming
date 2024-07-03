@@ -36,9 +36,13 @@ if(num==perfect){
     System.out.println("false");
 }*/
 //1 to 5 table print horizontal
+
 for(int i=1;i<=10;i++){
-    num=num*i;
+    
+    int table = num*i; 
+    System.out.println(num+ "*" +i+ "=" +table );
 }
+
 
     }
 }

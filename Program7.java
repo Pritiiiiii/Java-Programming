@@ -5,10 +5,12 @@ public class Program7 {
         if(n>0){
             System.out.print(n +" ");
             program7(n-5);
-        }System.out.print(n +" ");
+        }
+        System.out.print(n +" ");
+    
     }
     public static void main(String[] args) {
-        program7(16);
+        program7(13);
     }
 
 }
