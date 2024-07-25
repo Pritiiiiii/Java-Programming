@@ -10,7 +10,7 @@ public class Program7 {
     
     }
     public static void main(String[] args) {
-        program7(13);
+        program7(16);
     }
 
 }

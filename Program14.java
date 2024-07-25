@@ -15,8 +15,12 @@ public class Program14 {
             }
             if(factorCount==2){
                 primeCount++;
+                System.out.println(i+" ");
             }
+            
         }
+        
         System.out.println(primeCount);
+       
     }
 }

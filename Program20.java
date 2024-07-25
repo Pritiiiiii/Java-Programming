@@ -1,4 +1,4 @@
-//find first and last digit without using any lop
+//find first and last digit without using any loop
 import java.util.Scanner;
 public class Program20 {
     public static void main(String[] args) {

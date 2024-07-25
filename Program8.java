@@ -21,28 +21,27 @@ public class Program8 {
 // }
 //A perfect number
 //example 6:1,2,3
-/*int perfect=0;
+int perfect=0;
 for(int i=1;i<num;i++){
     if(num%i==0){
         perfect = perfect+i;
         System.out.print(i +" ");
     }
-   
-   
 }
+System.out.println();
 if(num==perfect){
     System.out.println("true");
 }else{
     System.out.println("false");
-}*/
+}
 //1 to 5 table print horizontal
 
-for(int i=1;i<=10;i++){
+// for(int i=1;i<=10;i++){
     
-    int table = num*i; 
-    System.out.println(num+ "*" +i+ "=" +table );
-}
+//     int table = num*i; 
+//     System.out.println(num+ "*" +i+ "=" +table );
+// }
 
 
-    }
+  }
 }

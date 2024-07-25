@@ -1,5 +1,5 @@
-//wapto check if the nunber is special number or not
-//a number is said to be a special number 
+//wap to check if the number is special number or not
+//a number is said to be a special number 59 sum of actual sum and producu
 import java.util.Scanner;
 public class Program11 {
 public static void main(String[] args) {

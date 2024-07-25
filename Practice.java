@@ -1,8 +1,11 @@
 import java .util.Scanner;
 public class Practice {
-public static int countOfDigits(int n ){
+
     //here we get count of digit
-    int count=0;
+
+    /*
+    public static int countOfDigits(int n ){
+     *  int count=0;
     while (n!=0) {
         n=n/10;
         count++;
@@ -34,6 +37,8 @@ return product;
        }else{
         System.out.println("not an armstrong");
        }
+     */
+   
         /*int year=2029;
         if(year%4==0 && year%100 !=0 ||year%400==0 ){
             System.out.println("leap year ");
@@ -131,7 +136,32 @@ System.out.println(product); */
 // else{
 //     System.out.println("not a special number");
 // }
+public static void main(String[] args) {
+    //revrse number 
+//     int n=53462;
+//     int revrse=0;
+//     while (n!=0) {
+//         int digit=n%10;
+// revrse=revrse*10+digit;
+// n=n/10;
+        
+//     }
+//     System.out.println(revrse);
+// COUNT upper case & lower case
+int count1=0;
+int count2=0;
+String str="Priti MOLAWADE";
+for(int i=0;i<str.length();i++){
+    char ch=str.charAt(i);
+    if(Character.isUpperCase(ch))
+    count1++;
+    else if(Character.isLowerCase(ch))
+    count2++;
+}
+System.out.println(count1 + "upper Character are present");
+System.out.println(count2 + "lower Character are present");
+}
 
     }
     
-}
+
